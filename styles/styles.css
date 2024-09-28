@@ -1,0 +1,56 @@
+nav{
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    display: block;
+    padding: 0.6em;
+}
+
+h1 {
+    color: steelblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid slateblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+div{
+    width: 100%;
+}
+
+p {
+    padding:0;
+}
+
+aside {
+    width: 200px;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 2);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+.uganda-imges {
+    width: 200px;
+    height: 300px;
+}
+
+.uganda-imges {
+    width: 200px;
+    height: 400px;
+}
+
+footer{
+    margin-top: 10em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
