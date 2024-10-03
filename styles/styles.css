@@ -39,6 +39,11 @@ aside {
     text-align: center;
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 .uganda-imges {
     width: 200px;
     height: 300px;
@@ -53,4 +58,7 @@ footer{
     margin-top: 10em;
     border-top: 1px solid #000;
     text-align: center;
+}
+main {
+    max-width: 100%;
 }
