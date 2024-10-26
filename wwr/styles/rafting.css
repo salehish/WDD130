@@ -119,10 +119,10 @@ article p{
     padding: 10px;
 
 }
-
 .history div img{
     width: 50%;
 }
+
 .history-img{
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ article p{
 
 }
 .history-img img{
-    align-self: center;  
+    align-self: center;  /*center image vertically */
     width: 100%;
     max-height: 300px;
     object-fit: contain;
@@ -147,7 +147,7 @@ article p{
 }
 .pics figure img{ 
     width: 100px;
-    height: auto; 
+    height: auto; /* maitain aspect ratio */
     object-fit: cover;
 }
 .pics{
@@ -159,13 +159,17 @@ article p{
     
 }
 
+/*.pics img{
+    width: 20%;
+}*/
+
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
    
-    background-color: aqua;
+    background-color: rgb(191, 0, 255);
     width: 100%;
 }
 footer p{
@@ -180,7 +184,7 @@ footer a{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    gap:10px; 
+    gap:10px; /* Adjust the gap as needed */
 }
 
 .social-media a img{
@@ -194,7 +198,6 @@ footer a{
     width: 100%;
     background-color: rgb(221, 236, 236);
 }
-
 .map{
     
     height: 90%;
@@ -221,7 +224,6 @@ form div{
     padding: 2%;
     margin-left: 0%;
 }
-
 .purpose{
     display: flex;
     flex-direction: column;
@@ -229,6 +231,7 @@ form div{
     justify-content:left ;
     padding: 10%;
 }
+
 #name{
     width: 50%;
     margin-left: 10%;
@@ -254,5 +257,66 @@ form div{
 
 .employees img{
     width: 200px;
-    height: 150px;
+    height: 100px;
+}
+
+.action{
+    text-decoration: none;
+    padding: 5%;
+    background-color: rgb(0, 255, 64);
+    color: black;
+    font-size: 200%;
+}
+
+.action:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.enjoy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5%;
+}
+
+.enjoy1{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+.enjoy2{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+
+}
+
+.purpose{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.offering{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
 }
